@@ -4,13 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" src="./styles.css"/>
+    <link rel="stylesheet" href="./styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <title>Portfolio</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <h1>Nelson Mutinda Mwanzia</h1>
+    <h2>About</h2>
 
-    <script src="script.js"></script>
+<section>
+    <div id="container">
+    <div class="contact-me">
+    <div id="contact">
+        <h3>Contact Me</h3>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="Name" class="form-group-label">Your name</label>
+                <div class="form-input">
+                    <input type="text" id="Name" name="Name" class="form-control" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Email" class="form-group-label">Your email address</label>
+                <div class="form-input">
+                    <input type="email" id="Email" name="Email" class="form-control" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Message" class="form-group-label">Your message</label>
+                <div class="form-input">
+                    <textarea id="Message" name="Message" class="form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="button" class="button">Send Message</button>
+            </div>
+        </form>
+        </div>
+    </div>
+</div>
+</section>
+
+    <script src="./script.js"></script>
+
+<section id="footer">
+    <footer>
+        <span>Made by Nelson Mutinda Mwanzia </a> |  <span class="fa fa-copyright"></span>2022 All Rights Reserved.</span>
+      </footer>    
+</section>
+
 
 </body>
 </html>
