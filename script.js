@@ -6,6 +6,7 @@ function displayAddress() {
       x.style.display = "none";
     }
 }
+
 function changeColor(){
 let newColor = document.querySelectorAll("navbar");
           for (const color of newColor) {
