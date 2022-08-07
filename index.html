@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/563c07b71b.js" crossorigin="anonymous"></script>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <title>Portfolio</title>
 </head>
@@ -19,7 +20,6 @@
             <li style="float:right"><a href="#home" class="menu-btn">Home</a></li>
           </ul>
           <div class="menu-btn">
-            <i class="fa fa-bars"></i>
           </div>
         </div>
       </nav>
@@ -29,7 +29,7 @@
     <br>
     <br>
     <h1>Who am I?</h1>
-    <p>I am Nelson Mutinda Mwanzia. I am 22 years old from Nairobi Kenya, a christian and a soon to be graduating student in KCA University. I am passionate about God and His creation as well as Information and Communication Technology. I am also passionate about diverse genres of music and am a wonderful (well, more of average) chef. I am a son, a brother, a friend and a lastborn. I am a sucker for the deeper conversations in life with the dearest people to me; friends and family. I believe that I am special and I will make a difference in my community and in the world as a whole.</p>
+    <p>I am <strong>Nelson Mutinda Mwanzia</strong>. I am 22 years old from Nairobi, Kenya. I am a christian and a soon to be graduating student in KCA University. I am passionate about God and His creation as well as Information and Communication Technology. I am also passionate about <strong>diverse genres of music and am a wonderful (well, more of average) chef</strong>. I am <strong>a son, a brother, a friend and a lastborn</strong>. I am a sucker for the deeper conversations in life with the dearest people to me; friends and family. I believe that I am special and I will make a difference in my community and in the world as a whole.</p>
     </div>
 <section>
     <div id = "about">
@@ -42,8 +42,8 @@
              <th>Education & Experience</th>
             </tr>
             <tr>
-             <td>I enjoy participating in team sports like football. I also enjoy taking long walks and reading philosophical books. I also love travelling with a bunch of friends. I also enjoy taking photographs of random things. I show a deep interest in Boardgames and Game Development.</td>
-             <td>I am pursuing a Bachelors Degree in Information Technology from the year 2018 to 2021 at KCA University. I have also taken the Cisco Certified Network Assistant (CCNA) Course while at KCA University and finished all four stages. I have recently completed a Lay Preaching Course, (IIDP) that was offered by the South Nairobi Kajiado Field in Nairobi in July 2022.</td>
+             <td>I enjoy participating in team sports like football. I also enjoy taking long walks and reading philosophical books. I also love travelling with a bunch of friends and taking photographs of random things. I show a deep interest in Boardgames and <strong>Game Development.</strong></td>
+             <td>I am pursuing a Bachelors Degree in Information Technology from the year 2018 to 2021 at KCA University. I have also taken the Cisco Certified Network Assistant (CCNA) Course while at KCA University and finished all four stages. I have recently completed a Lay Preaching Course (IIDP) that was offered by the South Nairobi Kajiado Field in Nairobi in July 2022.</td>
             </tr>
            </table>
           
@@ -54,7 +54,9 @@
         <br>
         <br>
         <h1>Skills</h1>
-        <p>I possess </p>
+        <p>I have engaged in creating a Veterinary Practice Management System (Under Development) using <strong>HTML, CSS, JavaScript, Bootstrap and MySQL </strong>for the database. On days that I'm doing techie stuff, I engage in reading books.  I am also <strong>a part-time Camera Person and Director at the Langata SDA Church</strong> where I participate in professional photograph and video shoots.</p>
+        <br>
+        <br>
     </div>
 </section>
 <section>
@@ -63,7 +65,7 @@
     <div id="contact">
         <br>
         <br>
-        <h3>Contact Me</h3>
+        <h3><span class = "multicolortext">Contact Me</span></h3>
         <form id="contact-form">
             <div class="form-group">
                 <label for="Name" class="form-group-label">Your name</label>
@@ -90,11 +92,20 @@
         </div>
     </div>
 </div>
-<address>
-    Name: "Nelson Mutinda Mwanzia", <br>
-    Address: "Nairobi, Kenya", <br>
-    Email: "nmutinda02@gmail.com" <br>
-</address>
+<br>
+<br>
+<button id = "add-btn" onclick="displayAddress()">Click to Display/Hide My Address!</button>
+<div id="addr">
+    <address>
+        <b>
+        Written by <a href="mailto:nmutinda02@gmail.com">Nelson Mutinda Mwanzia</a>, <br>
+        Address: Nairobi, Kenya. <br>
+        </b>
+        
+    </address>
+</div>
+<br>
+<br>
 </section>
 
     <script src="./script.js"></script>
@@ -102,9 +113,9 @@
 <section id="footer">
     <footer>
     <hr>
-        <span>Made by Nelson Mutinda Mwanzia | 2022 All Rights Reserved.</span>
+        <span class = "multicolortext">Made by Nelson Mutinda Mwanzia | <i class="fa-solid fa-copyright"></i> 2022 All Rights Reserved.</span>
     <hr>
-      </footer>    
+    </footer>    
 </section>
 
 
